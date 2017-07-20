@@ -8,7 +8,7 @@
 //************************************************************
 #include <Wire.h>
 // #include <LCD.h>
-// #include <LiquidCrystal_I2C.h> 
+// #include <LiquidCrystal_I2C.h> //lcd
 #include "DHT.h"
 #include "painlessMesh.h"
 
