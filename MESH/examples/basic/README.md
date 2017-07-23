@@ -7,7 +7,7 @@ mas detalles en https://github.com/uagaviria/EspSoftwareSerial
 # Esquema Esp IDATA[![i2circuit Status](https://travis-ci.org/esp8266/arduino-esp8266fs-plugin.svg?branch=master)](https://i2circuit.com)
 
 
-![Screenshot](IDATA.BMP)
+![Screenshot](idata.bmp)
 
 
 
