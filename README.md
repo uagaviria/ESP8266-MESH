@@ -17,7 +17,9 @@ La información de enrutamiento se comparte en forma de mensajes de sincronizació
 Casos en los que se realiza una nueva sincronización de nodo
 
 -La petición de sub-conexiones se realiza periódicamente
+
 -Cuando se detecta cualquier actualización en la red, es decir,  cualquier subconección de un nodo ha cambiado
+
 -Cuando un nuevo nodo se conecta a un nuevo AP
 
 
