@@ -27,14 +27,14 @@ Mensajes de enrutamiento
 Con la topología de red en estrella sin bucles. El enrutamiento se vuelve muy fácil. Hay una sola ruta para cada par de nodos.
 
 
-Mensajes SINGLE
+Mensajes INDIVIDUAL (SINGLE) :
 
 Para mensajes individuales, se especifica un nodo de destino y de origen. En primer lugar, la conexión a utilizar se busca. Ya sea la conexión directa, o la conexión que tiene una subconección con el nodo de destino. El mensaje se envía a ese nodo. Cuando ese nodo no es el nodo de destino, el mensaje exacto se transmite a la siguiente conexión, que se busca de la misma manera. Esto se repite hasta que el mensaje llega al nodo de destino.
 
 Los mensajes no son reconocidos. Esto debe implementarse a nivel de aplicación.
 
 
-Mensajes BROADCAST
+Mensajes EMITIDOS - (BROADCAST):
 
 Para los mensajes de difusión, todas las conexiones se iteran y el mensaje se envía a cada conexión. Al recibir el mensaje de difusión, el mensaje es retransmitido a todas las conexiones del nodo receptor, excepto la conexión por la que se recibe el mensaje.
 
